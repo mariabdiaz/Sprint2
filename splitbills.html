@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="fondo" href=/imagenes-calculadora/fondo.jfif type="image">
+        <title>Document</title>
+    </head>
+    <body class= "fondo" style="background-image: url(imagenes-calculadora/fondo.jfif); background-size:cover;
+    background-repeat: repeat">
+    <ul class="center">
+                 <p1> Nombre </p1><br><br>
+           <input type= text class="form-control" placeholder="Identificarse por favor" id="namehtml">    
+             
+           <br><br><form> <p1>Monto</p1><br><br>
+                <input type= number class="form-control" placeholder="Cuánto aporto?" id="pricehtml" min= "1"
+                pattern= "^[0-9]+" required> 
+            <br><br><input type = "button" value = "Enviar" onclick= "agregar()" />
+    </ul>
+    <div class="center1">
+    <ul class="list-group list-group-flush">
+      <div id="papa" ></div>
+    </div>
+    </ul>
+    <div class="center2">
+          <div id="total"> Monto Total:$0</div><br>
+          <div id="xperson" >Monto per capita: $0</div>
+        </div>
+    </div>
+     
+</body>
+<script src="splitbills1.js"></script>  
+</html>
